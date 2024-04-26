@@ -1,0 +1,22 @@
+.game-container {
+  text-align: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  box-shadow: 0 0 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0;
+  width: 300px;
+  margin: auto;
+}
